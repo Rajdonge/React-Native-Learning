@@ -24,5 +24,5 @@
     <p>Figure 8: code of contact.jsx</p> <br>
     <img src="./Screenshots for Lesson 3/9.png" alt="UI of Contact page" /><br>
     <p>Figure 9: UI of Contact page</p><br>
-    <h4 align="center">Thank You!</h4>
+    <h4 align="center">Thank You!</h4><br><br>
 </div>
