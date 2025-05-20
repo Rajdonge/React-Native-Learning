@@ -37,5 +37,5 @@
     <p>Figure 12: code implementation for Image component</p><br>
     <img src="./Screenshots for Lesson 2/13.png" alt="UI for Image component"><br>
     <p>Figure 13: UI for Image component</p><br><br>
-    <strong align="center">Thank You!</strong><br><br>
+    <h4 align="center">Thank You!</h4><br><br>
 </div>
