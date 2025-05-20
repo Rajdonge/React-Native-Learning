@@ -1,9 +1,9 @@
 <div>
     <h1 align="center">Shelfie App</h1>
     <h1 align="center">Lesson 3: File-Base Navigation</h1><br><br>
-    <strong>1. Create a file about.jsx in app folder.</strong><br>
+    <strong>1. Create files about.jsx and contact.jsx in app folder.</strong><br>
     <img src="./Screenshots for Lesson 3/1.png" alt="about.jsx created" /><br>
-    <p>Figure 1: about.jsx created</p><br>
+    <p>Figure 1: about.jsx and contact.jsx created</p><br>
     <strong>2. Code implementation in about.jsx</strong><br>
     <img src="./Screenshots for Lesson 3/2.png" alt="about.jsx code" /><br>
     <p>Figure 2: about.jsx code</p><br>
