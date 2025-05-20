@@ -24,7 +24,7 @@
     src="./screenshots/Screenshot 2025-05-19 153745.png"
     alt="expo-cli" />
   <br />
-  <p>>Figure 1: creating expo-app1</p><br>
+  <p>Figure 1: creating expo-app1</p><br>
   <img
     src="./screenshots/Screenshot 2025-05-19 154255.png"
     alt="expo-cli" />
@@ -45,7 +45,7 @@
     alt="expo-cli" />
     <br>
     <p>Make sure you are inside the project before running this command.</p>
-    <img src="./screenshots/Screenshot 2025-05-19 154545.png" alt="expo-cli"/> <br>
+    <img src="./screenshots/Screenshot 2025-05-19 175941.png" alt="expo-cli"/> <br>
     <p>Figure 4: project successfully started</p><br>
     <img
     src="./screenshots/Screenshot 2025-05-19 155019.png" alt="expo-cli" /><br>
@@ -55,7 +55,7 @@
     <p>OR</p><br>
     <p>Manually Enter --> exp://192.168.1.67:8081</p><br>
     <img
-    src="./screenshots/Screenshot 2025-05-19 155141" alt="expo-cli" /><br>
+    src="./screenshots/Screenshot 2025-05-19 155141.png" alt="expo-cli" /><br>
     <img src="./screenshots/Screenshot 2025-05-19 155230.png" alt="expo-cli" /><br>
     <p>Click on Connect</p><br>
     <img src="./screenshots/Screenshot 2025-05-19 155921.png" alt="expo-cli"><br>
