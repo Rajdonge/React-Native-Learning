@@ -1,6 +1,6 @@
 <div>
-  <h1 align="center">Lesson 1</h1>
-  <h2 align="center">Selfie App</h2>
+  <h1 align="center">Selfie App</h1>
+  <h2 align="center">Lesson 1</h2>
   <br /><br />
   <h1>1. Environment Setup</h1>
   <br />
@@ -63,7 +63,7 @@
     <p>Congratulations! You have successfully created a mobile app.</p><br>
     <p>Open a project on code editor of your choice. I prefer Visual Studio Code Editor.</p><br>
     <img src="./screenshots/Screenshot 2025-05-19 180039.png" alt="expo-cli"><br>
-    <p>Figure 5: project on vs code editor</p>
+    <p>Figure 5: project on vs code editor</p><br>
     <table>
         <caption>Project File/Folder Structure</caption>
         <thead>
