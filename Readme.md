@@ -16,4 +16,5 @@
   <p>React Native applications use the same native platform APIs as other native apps, ensuring high performance and a smooth user experience. The framework provides a core set of platform-agnostic native components like View, Text, and Image that map directly to the platform’s native UI building blocks.</p><br>
   <h2>2.3 Active Community and Ecosystem</h2><br>
   <p>React Native has a large and active developer community, contributing to its continuous improvement and providing a wealth of resources, libraries, and tools. The framework is supported by contributions from companies like Microsoft, Expo, and Infinite Red. </p><br>
+  <strong>Check out all the branches for this project. All the branches consist proper Readme file to make it understandable.</strong>
 </div>
