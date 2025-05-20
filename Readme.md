@@ -5,9 +5,9 @@
     <p>index.js</p><br>
     <img src="./Screenshots for Lesson 2/1.png" alt="index.js" /><br>
     <p>UI for this:</p><br>
-    <img src="./Screenshots for Lesson 2/2.png" alt="UI for this" /><br>
-    <p>After providing some css, it looks like: </p>
+    <img src="./Screenshots for Lesson 2/2.png" alt="code implementation for this" /><br>
     <img src="./Screenshots for Lesson 2/3.png" alt="After providing some css, it looks like" /><br>
+    <p>After providing some css, it looks like: </p><br>
     <p>Now, it's time for Text component: </p><br>
     <p>First, import Text from "react-native"</p><br>
     <p>Providing css for the Text components: </p><br>
