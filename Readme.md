@@ -1,6 +1,6 @@
 <div>
     <h1 align="center">Selfie App</h1>
-    <h2 align="center">Lesson 2</h2><br><br>
+    <h2 align="center">Lesson 2: Text, View & Image Components</h2><br><br>
     <p>In index.jsx</p><br>
     <img src="./Screenshots for Lesson 2/1.png" alt="index.jsx" /><br>
     <p>Figure 1: index.jsx</p><br>
