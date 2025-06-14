@@ -1,120 +1,121 @@
 <div>
   <h1 align="center">Shelfie App</h1>
-  <h1 align="center">Lesson 4: Layouts and Stack</h1>
+  <h1 align="center">Lesson 5: Light and Dark Themes </h1>
   <br /><br />
-  <strong>1. Create file _layout.jsx in an app folder.</strong><br />
+  <strong>Go to the app.json file, where you can see userInterfaceStyle: light. I f you changed it to the dark, the we see nothing changed in app. <br></strong><br />
   <img
-    src="./Screenshots for Lesson 4/1.png"
-    alt="_layout.jsx file created"
+    src="./Screenshots for Lesson 5/1.png"
+    alt="default userInterfaceStyle in app.json"
   /><br />
-  <p>Figure 1: _layout.jsx file</p>
+  <p>Figure 1: default userInterfaceStyle in app.json</p>
   <br />
-  <strong>2. Slot: </strong><br />
+  <strong>UI</strong><br />
   <img
-    src="./Screenshots for Lesson 4/2.png"
-    alt="code of _layout.jsx using Slot"
+    src="./Screenshots for Lesson 5/2.png"
+    alt="UI"
   /><br />
-  <p>Figure 2: code of _layout.jsx using Slot</p>
+  <p>Figure 2: UI</p>
   <br />
-  <img src="./Screenshots for Lesson 4/3.png" alt="UI for Home page" /><br />
-  <p>Figure 3: UI for Home page</p>
+  <img src="./Screenshots for Lesson 5/5.png" alt="changed to dark mode" /><br />
+  <p>Figure 3: Changed to dark mode</p>
   <br />
-  <img src="./Screenshots for Lesson 4/3.1.png" alt="UI for About page" /><br />
-  <p>Figure 3: UI for About page</p>
-  <br />
-  <img
-    src="./Screenshots for Lesson 4/3.2.png"
-    alt="UI for Contact page"
-  /><br />
-  <p>Figure 3: UI for Contact page</p>
-  <br />
-  <p>
-    Using Slot you can render _layout file in every pages. But I still think
-    that the navigation experience in the app is little bit clunky and it would
-    be nice to have a little heading bar at the top of each page with maybe a
-    back button. So we can click on that to go to the previous page and then
-    also back again if we wanted to keep cycling through the history. And we can
-    do that using the navigation component called stack instead of slots.
-  </p>
-  <br />
-  <strong>3. Stack:</strong><br />
-  <img src="./Screenshots for Lesson 4/4.png" alt="code of Stack" /><br />
-  <p>Figure 4: code of Stack</p>
-  <br />
-  <img src="./Screenshots for Lesson 4/5.png" alt="UI for Home page" /><br />
-  <p>Figure 5: UI of Home page</p>
-  <br />
-  <img src="./Screenshots for Lesson 4/5.1.png" alt="UI for About page" /><br />
-  <p>Figure 6: UI of About page</p>
+  <img src="./Screenshots for Lesson 5/3.png" alt="updated code in app.json to see the userInterfaceStyle in console" /><br />
+  <p>Figure 3: updated code in app.json to see the userInterfaceStyle in console</p>
   <br />
   <img
-    src="./Screenshots for Lesson 4/5.2.png"
-    alt="UI for Contact page"
+    src="./Screenshots for Lesson 4/4.png"
+    alt="light printed in console"
   /><br />
-  <p>Figure 7: UI of Contact page</p>
+  <p>Figure 3: light printed in console</p>
   <br />
+  <strong>
+    When I changed the userInterfaceStyle to dark, the console printed dark.
+  </strong>
   <br />
-  <strong>4. Registering Screens individually:</strong><br />
-  <p>1. Go to _layout.jsx:</p>
+  <img src="./Screenshots for Lesson 5/5.png" alt="updated app.json" /><br />
+  <p>Figure 4: updated app.json</p>
+  <br />
+  <img src="./Screenshots for Lesson 5/6.png" alt="dark printed in console" /><br />
+  <p>Figure 5: dark printed in console</p>
+  <br />
+  <strong>Now, create a folder constants</strong><br>
+  <img
+    src="./Screenshots for Lesson 5/7.png"
+    alt="constants folder" /><br />
+  <p>Figure 6: constants folder</p><br>
+  <strong>Now, create a file Colors.js in constants folder</strong><br>
+  <img
+    src="./Screenshots for Lesson 5/8.png"
+    alt="Colors.js" /><br />
+  <p>Figure 7: constants folder</p><br>
+  <strong>In Colors.js</strong><br>
+  <img
+    src="./Screenshots for Lesson 5/9.png"
+    alt="code in Colors.js" /><br />
+  <p>Figure 8: code in Colors.js</p><br>
+  /><br />
+  <br />
+  <strong>Go to _layout.jsx, add these:</strong><br />
   <br />
   <img
-    src="./Screenshots for Lesson 4/6.png"
-    alt="registering screens code"
-  /><br />
-  <p>Figure 8: screens registering code</p>
-  <br />
-  <p>Here, options are being used individually.</p>
+    src="./Screenshots for Lesson 5/10.png"
+    alt="add in _layout.jsx" /><br />
+  <p>Figure 9: add in _layout.jsx</p><br />
+  <strong>UI, after being udpated</strong>
   <br />
   <img
-    src="./Screenshots for Lesson 4/7.png"
-    alt="Home page UI after being screens registered "
+    src="./Screenshots for Lesson 5/11.png"
+    alt="Home page UI after being updated (dark userInterfaceStyle)"
   /><br />
-  <p>Figure 9: Home page UI after being screens registered</p>
+  <p>Figure 10: Home page UI after being updated (dark userInterfaceStyle)</p>
   <br />
   <img
-    src="./Screenshots for Lesson 4/8.png"
-    alt="About page UI after being screens registered "
+    src="./Screenshots for Lesson 5/12.png"
+    alt="Home page UI after being updated (light userInterfaceStyle)"
   /><br />
-  <p>Figure 9: About page UI after being screens registered</p>
+  <p>Figure 10: Home page UI after being updated (dark userInterfaceStyle)</p>
+  <br />
+  <strong>Now, go to about.jsx</strong><br>
+  <img
+    src="./Screenshots for Lesson 5/13.png"
+    alt="code udpated in about.jsx" /><br />
+  <p>Figure 11: code udpated in about.jsx</p><br>
   <br />
   <img
-    src="./Screenshots for Lesson 4/9.png"
-    alt="Contact page UI after being screens registered "
+    src="./Screenshots for Lesson 5/14.png"
+    alt="UI of About page after being updated (light userInterfaceStyle)"
   /><br />
-  <p>Figure 9: Contact page UI after being screens registered</p>
+  <p>Figure 11: UI of About page after being updated (light userInterfaceStyle)</p>
   <br />
-  <p>How to hide header?</p>
+  <p>And when it is change to dark mode (don’t forget to refresh your app or terminal):</p><br>
+  <img
+    src="./Screenshots for Lesson 5/15.png"
+    alt="UI of About page after being updated (dark userInterfaceStyle)"
+  /><br />
+  <p>Figure 12: UI of About page after being updated (dark userInterfaceStyle)</p>
+  <br />
+  <p>When userInterfaceStyle is in light mode, unable to view status bar:</p>
   <br />
   <img
-    src="./Screenshots for Lesson 4/10.png"
-    alt="code to hide header"
+    src="./Screenshots for Lesson 5/16.png"
+    alt="UI for status bar in light mode"
   /><br />
-  <p>code to hide header</p>
+  <p>Whereas status bar can be viewed only in dark mode, to tackle this,<br>
+Lets add StatusBar, go to _layout.jsx:
+</p>
   <br />
   <img
-    src="./Screenshots for Lesson 4/11.png"
-    alt="Contact page UI after header being hidden"
+    src="./Screenshots for Lesson 5/17.png"
+    alt="updated code in _layout.jsx to add StatusBar"
   /><br />
-  <p>Figure 10: Contact page UI after header being hidden</p>
-  <br />
-  <p>Now, using Screen Options globally:</p>
+  <p>Figure 13: updated code in _layout.jsx to add StatusBar</p>
   <br />
   <img
-    src="./Screenshots for Lesson 4/12.png"
-    alt="code to use Screen Options globally"
+    src="./Screenshots for Lesson 5/18.png"
+    alt="Here you can see status bar like wifi icon, battery icon etc. are visible."
   /><br />
-  <p>Figure 11: code to use Screen Options globally</p>
+  <p>Figure 14: Here you can see status bar like wifi icon, battery icon etc. are visible.</p>
   <br />
-  <img src="./Screenshots for Lesson 4/13.png" alt="Home page UI" /><br />
-  <p>Figure 12: Home page UI</p>
-  <br />
-  <img src="./Screenshots for Lesson 4/14.png" alt="About page UI" /><br />
-  <p>Figure 13: About page UI</p>
-  <br />
-  <img src="./Screenshots for Lesson 4/15.png" alt="Contact page UI" /><br />
-  <p>Figure 14: Contact page UI</p>
-  <br />
-
   <h4 align="center">Thank You!</h4>
   <br /><br />
 </div>

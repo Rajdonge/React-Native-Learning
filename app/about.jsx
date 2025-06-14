@@ -1,12 +1,19 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, useColorScheme } from "react-native";
 import { Link } from "expo-router";
+import { Colors } from "../constants/Colors";
+import { StatusBar } from "expo-status-bar";
 
 const About = () => {
+  const colorScheme = useColorScheme();
+  const theme = Colors[colorScheme] ?? Colors.light;
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>About Page</Text>
+    <>
+    <StatusBar value="auto" />
+    <View style={[styles.container, { backgroundColor: theme.background }]}>
+      <Text style={[styles.title, {}]}>About Page</Text>
       <Link href="/" style={styles.link}>Back Home</Link>
     </View>
+    </>
   );
 };
 
